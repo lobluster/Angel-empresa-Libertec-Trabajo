@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libertec Garrucha | Informática, Telecomunicaciones y Servicio Técnico</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <header class="cabecera">
+        <div class="contenedor-nav">
+            <a href="#inicio" class="logo">
+                <img src="img/logo1.png" alt="Logotipo Libertec Garrucha">
+            </a>
+            
+            <nav>
+                <ul class="menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#tarifas">Tarifas</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#multimedia">Multimedia</a></li>
+                    <li><a href="#faq">Ayuda</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <button id="btn-tema" class="btn-dom">🌓 Cambiar Tema</button>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+
+        <video autoplay muted loop playsinline class="video-fondo" poster="img/fondo-hero.jpg">
+            <source src="Video/video-fondo.mp4" type="video/mp4">
+            Tu navegador no soporta vídeos HTML5.
+        </video>
+        
+        <div class="hero-contenido">
+            <h1>LIBERTEC GARRUCHA</h1>
+            <p>Tu centro tecnológico de confianza en el Levante Almeriense. Venta de equipos, reparación exprés y telecomunicaciones.</p>
+            <a href="#contacto" class="btn-principal">Pide Presupuesto Gratis</a>
+        </div>
+    </section>
+
+    <section id="nosotros" class="seccion">
+        <div class="contenedor">
+            <h2>Sobre Libertec</h2>
+            <div class="texto-columnas">
+                <p>Ubicados en pleno corazón de Garrucha (Almería), en <strong>Libertec</strong> llevamos años ofreciendo soluciones tecnológicas integrales tanto a particulares como a empresas de toda la comarca del Levante Almeriense.</p>
+                <p>Nos especializamos en la reparación de teléfonos móviles, ordenadores portátiles y de sobremesa, además de contar con un amplio catálogo de componentes gaming, accesorios y tarifas de fibra óptica y telefonía móvil adaptadas a cada hogar.</p>
+                <p>Nuestro equipo técnico garantiza diagnósticos rápidos, repuestos de máxima calidad y un trato cercano y personalizado para que nunca te quedes desconectado.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="seccion fondo-alterno">
+        <div class="contenedor">
+            <h2>Nuestros Servicios y Catálogo</h2>
+            <div class="grid-listas">
+                
+                <div class="caja-lista">
+                    <h3>Catálogo de Productos</h3>
+                    <ul class="lista-personalizada">
+                        <li>Equipos Informáticos
+                            <ul>
+                                <li>Ordenadores Gaming a medida</li>
+                                <li>Portátiles para estudiantes y oficina</li>
+                                <li>Monitores curvos y periféricos RGB</li>
+                            </ul>
+                        </li>
+                        <li>Telefonía y Movilidad
+                            <ul>
+                                <li>Smartphones libres de últimas generaciones</li>
+                                <li>Fundas, cristales templados y cargadores</li>
+                            </ul>
+                        </li>
+                        <li>Telecomunicaciones
+                            <ul>
+                                <li>Altas de Fibra Óptica en Garrucha y alrededores</li>
+                                <li>Tarifas móviles con datos ilimitados</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="caja-lista">
+                    <h3>Proceso de Reparación Exprés</h3>
+                    <ol class="lista-ordenada">
+                        <li>Recepción y Diagnóstico
+                            <ol type="a">
+                                <li>Entrega del dispositivo en tienda</li>
+                                <li>Revisión técnica gratuita en 24h</li>
+                            </ol>
+                        </li>
+                        <li>Presupuesto sin compromiso
+                            <ol type="a">
+                                <li>Llamada o WhatsApp al cliente</li>
+                                <li>Aprobación del coste y plazo</li>
+                            </ol>
+                        </li>
+                        <li>Reparación y Entrega
+                            <ol type="a">
+                                <li>Sustitución de piezas y test de calidad</li>
+                                <li>Garantía de 6 meses en la reparación</li>
+                            </ol>
+                        </li>
+                    </ol>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="tarifas" class="seccion">
+        <div class="contenedor">
+            <h2>Tarifas de Servicio Técnico y Fibra</h2>
+            <p class="subtitulo">Consulta nuestros precios transparentes (IVA incluido).</p>
+            
+            <div class="tabla-responsive">
+                <table class="tabla-precios">
+                    <thead>
+                        <tr>
+                            <th>Servicio / Pack</th>
+                            <th>Descripción</th>
+                            <th>Tiempo Estimado</th>
+                            <th>Garantía</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Formateo + Sistema</td>
+                            <td>Instalación de Windows/Linux, drivers y copia de seguridad</td>
+                            <td>24 horas</td>
+                            <td>3 meses</td>
+                            <td>35,00 €</td>
+                        </tr>
+                        <tr>
+                            <td>Cambio de Pantalla Móvil</td>
+                            <td>Sustitución de pantalla completa + cristal templado de regalo</td>
+                            <td>2 horas</td>
+                            <td>6 meses</td>
+                            <td>Desde 49,00 €</td>
+                        </tr>
+                        <tr>
+                            <td>Limpieza Interna PC</td>
+                            <td>Limpieza de polvo, cambio de pasta térmica y optimización</td>
+                            <td>24 horas</td>
+                            <td>3 meses</td>
+                            <td>29,90 €</td>
+                        </tr>
+                        <tr>
+                            <td>Montaje PC a Medida</td>
+                            <td>Ensamblaje de componentes, gestión de cables y test de estrés</td>
+                            <td>48 horas</td>
+                            <td>2 años</td>
+                            <td>45,00 €</td>
+                        </tr>
+                        <tr>
+                            <td>Pack Fibra 600Mb + Móvil</td>
+                            <td>Router WiFi 6 gratis + línea móvil con 50GB y llamadas ilimitadas</td>
+                            <td>Instalación 72h</td>
+                            <td>Sin permanencia</td>
+                            <td>29,95 €/mes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="seccion fondo-alterno">
+        <div class="contenedor">
+            <h2>Galería de Productos e Instalaciones</h2>
+            <p class="subtitulo">Pasa el ratón por encima para ver el efecto de ampliación.</p>
+            
+            <div class="galeria-grid">
+                <div class="item-galeria"><img src="img/galeria1.png" alt="Foto1"></div>
+                <div class="item-galeria"><img src="img/galeria2.png" alt="Foto2"></div>
+                <div class="item-galeria"><img src="img/galeria3.png" alt="Foto3"></div>
+                <div class="item-galeria"><img src="img/galeria4.png" alt="Foto4"></div>
+                <div class="item-galeria"><img src="img/galeria5.png" alt="Foto5"></div>
+                <div class="item-galeria"><img src="img/galeria6.png" alt="Foto6"></div>
+                <div class="item-galeria"><img src="img/galeria7.png" alt="Foto7"></div>
+                <div class="item-galeria"><img src="img/galeria8.png" alt="Foto8"></div>
+                <div class="item-galeria"><img src="img/galeria9.png" alt="Foto9"></div>
+                <div class="item-galeria"><img src="img/galeria10.png" alt="Foto10"></div>
+                <div class="item-galeria"><img src="img/galeria11.png" alt="Foto11"></div>
+                <div class="item-galeria"><img src="img/galeria12.png" alt="Foto12"></div>
+                <div class="item-galeria"><img src="img/galeria13.png" alt="Foto13"></div>
+                <div class="item-galeria"><img src="img/galeria14.png" alt="Foto14"></div>
+                <div class="item-galeria"><img src="img/galeria15.png" alt="Foto15"></div>
+                <div class="item-galeria"><img src="img/galeria16.png" alt="Foto"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="multimedia" class="seccion">
+        <div class="contenedor">
+            <h2>Zona Multimedia</h2>
+            
+            <div class="caja-audio">
+                <h3>Escucha nuestra cuña publicitaria en radio</h3>
+                <audio controls>
+                    <source src="audio/cuna-radio.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+            </div>
+
+            <h3>Nuestros Vídeos Destacados</h3>
+            <div class="grid-videos">
+                <div class="tarjeta-video">
+                    <video controls poster="img/galeria1.png">
+                        <source src="Video/video1.mp4" type="video/mp4">
+                    </video>
+                    <p>Comunicacion</p>
+                </div>
+                <div class="tarjeta-video">
+                    <video controls poster="img/galeria2.png">
+                        <source src="Video/video2.mp4" type="video/mp4">
+                    </video>
+                    <p>Proceso</p>
+                </div>
+                <div class="tarjeta-video">
+                    <video controls poster="img/galeria6.jpg">
+                        <source src="Video/video3.mp4" type="video/mp4">
+                    </video>
+                    <p>Robotica</p>
+                </div>
+            </div>
+
+            <div class="contenedor-iframe">
+                <h3>Cuña de Radio Libertec</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/tP66ZA49nKo" title="Cuña de Radio Libertec" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="seccion fondo-alterno">
+        <div class="contenedor">
+            <h2>Preguntas Frecuentes (How To: Acordeón W3Schools)</h2>
+            
+            <button class="accordion">¿Cuánto tardáis en reparar la pantalla de un móvil?</button>
+            <div class="panel">
+                <p>Si disponemos del repuesto en nuestro taller de Garrucha, la reparación se realiza en el mismo día (entre 1 y 2 horas).</p>
+            </div>
+
+            <button class="accordion">¿Hacéis presupuestos a medida para ordenadores Gaming?</button>
+            <div class="panel">
+                <p>Sí, nos dices tu presupuesto y a qué juegos o programas quieres dedicarlo, y te configuramos el equipo pieza por pieza sin compromiso.</p>
+            </div>
+
+            <button class="accordion">¿Qué compañías de fibra óptica trabajáis?</button>
+            <div class="panel">
+                <p>Trabajamos con las principales operadoras nacionales y locales con cobertura directa en Garrucha, Vera, Mojácar y Turre.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="seccion">
+        <div class="contenedor">
+            <h2>Contacta con Libertec Garrucha</h2>
+            <div class="grid-contacto">
+                
+                <form class="formulario-contacto" action="#" method="post">
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej. Angel Martinez" required>
+
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="Angel@ejemplo.com" required>
+
+                    <label for="asunto">Motivo de consulta:</label>
+                    <input type="text" id="asunto" name="asunto" placeholder="Reparación, Fibra, Presupuesto PC...">
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos qué necesitas..." required></textarea>
+
+                    <div class="botones-form">
+                        <button type="submit" class="btn-principal">Enviar Mensaje</button>
+                        <button type="reset" class="btn-secundario">Borrar Datos</button>
+                    </div>
+                </form>
+
+                <div class="mapa-google">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2673.061290067484!2d-1.824789339392447!3d37.18066516582632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7b29e6171ef52d%3A0x799f07df67f1d324!2sLIBERTEC%20Inform%C3%A1tica!5e0!3m2!1ses!2ses!4v1795778509580!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="pie-pagina">
+        <div class="contenedor">
+            <img src="img/logo2.png" alt="Logo Libertec Footer" class="logo-footer">
+            <p>Calle Mayor, Garrucha (04630), Almería | Teléfono: 950 00 00 00 | info@libertecgarrucha.es</p>
+            <p>&copy; 2026 Libertec Garrucha - Proyecto Web HTML5 y CSS3.</p>
+        </div>
+    </footer>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        for (var i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+
+        const btnTema = document.getElementById("btn-tema");
+        btnTema.addEventListener("click", function() {
+            document.body.classList.toggle("modo-oscuro");
+        });
+    </script>
+
+</body>
+</html>
